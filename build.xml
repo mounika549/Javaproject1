@@ -1,0 +1,9 @@
+
+<project default="run" name="JavaProject1 compile and run Java class">
+	<target name="run" depends="compile">
+		<java classname="Hello" classpath ="C:\Users\pulikallam\Desktop\Javaproject1" />
+	</target>
+	<target name="compile">
+		<javac includeantruntime="false" srcdir="C:\Users\pulikallam\Desktop\Javaproject1" destdir="C:\Users\pulikallam\Desktop\Javaproject1" />
+	</target>	
+</project>
